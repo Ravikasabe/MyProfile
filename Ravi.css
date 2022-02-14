@@ -1,0 +1,81 @@
+.BG{
+  background-image: url("Ravi.jpg");  /*It looks good without background-repeat */
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(245, 236, 236);
+  width: 22.5%;
+}
+
+li{
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(196, 33, 187);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+  opacity: 0.8;
+}
+.name{
+  margin-left: 38.5%;
+  opacity: 0.5;
+}
+.H2{
+  color: rgb(46, 236, 46);
+  font-size: 30px;
+}
+.H3{
+  margin: 3%;
+  font-style: arial;
+  opacity: 0.8;
+  font-size: 20px;
+  background-color: rgb(29, 255, 225);
+}
+.column{ 
+  margin-bottom: 40px;
+  float: left; 
+  width: 50%;
+  padding:-15px; 
+} 
+.row{
+  color: rgb(250, 250, 250);
+
+}
+.row:after{ 
+  margin-top: 10px;
+  content: "";
+  display: table; 
+  clear: both;
+}   
+input{ 
+  background-color:#FF69B4; 
+  shape-margin: 2px;
+  color:white; 
+} 
+input:hover{ 
+  background-color:#FE7F9C;     
+  cursor:pointer; 
+}
+.footer{ 
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.671); 
+  background-repeat: inherit;
+  padding:10px; 
+  text-align:center; 
+} 
+.stylefooter{     
+  color: rgb(255, 255, 255);
+ background-color: rgb(80, 79, 82);
+ margin-bottom: 2%;
+ padding: 10%;
+} 
